@@ -20,16 +20,6 @@ tc.schools = [
 		"end10": "16:10:00"
 	},
 	{
-		"name": "",
-		"station": "Eppingen Bahnhof",
-		"footway": "15",
-		"begin": "",
-		"end5": "",
-		"end6": "",
-		"end8": "",
-		"end10": ""
-	},
-	{
 		"name": "Hartmanni-Gymnasium Eppingen",
 		"station": "Eppingen Bahnhof",
 		"footway": "10",
@@ -89,4 +79,4 @@ tc.schools = [
 		"end8": "15:35:00",
 		"end10": "17:20:00"
 	}
-]
+];
