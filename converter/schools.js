@@ -1,12 +1,12 @@
-var fs = require('fs'), csv = require('csv'), wait = require('wait.for');
+var fs = require('fs'), csv = require('csv');
 var argv = require('optimist').usage('Convert csv file of schools\nUsage: $0 [csvfile]').demand(1).argv;
 
 var input = csv().from(argv._[0]).to.array(function(data) {
 	delete data[0];
 
-	var schools = [];
+	var result = [];
 	data.forEach(function(line) {
-		schools.push({
+		result.push({
 			'name': line[0],
 			'station': line[1],
 			'footway': line[2],
@@ -18,5 +18,5 @@ var input = csv().from(argv._[0]).to.array(function(data) {
 		});
 	});
 
-	console.log('tc.schools = ' + JSON.stringify(schools, null, '\t') + ';');
+	console.log('tc.schools = ' + JSON.stringify(result, null, '\t') + ';');
 });
