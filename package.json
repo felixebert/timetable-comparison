@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "optimist": "~0.6.0",
-    "csv": "~0.3.6"
+    "csv": "~0.3.6",
+    "wait.for": "~0.6.3"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
