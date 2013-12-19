@@ -11,52 +11,35 @@
 <meta name="description" content="Stadtbahn S4: Fahrplanwechsel Vergleich">
 
 <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/e335206a.tc.css">
+<link rel="stylesheet" href="css/9b3a77ef.tc.css">
 </head>
 <body>
 	<div class="container">
-		<form class="form-horizontal comparison-form" action="comparison.html">
+		<form class="comparison-form" action="comparison.html" method="GET">
 			<div class="form-group">
-				<label for="station" class="col-sm-3">von Haltestelle</label>
-				<div class="col-sm-9">
-					<select name="" class="form-control" id="station">
-						<option>Leingarten</option>
-						<option>Schwaigern</option>
-					</select>
-				</div>
+				<label for="station">von Haltestelle</label>
+				<select name="station" class="form-control" id="station">
+				</select>
 			</div>
 			<div class="form-group">
-				<label for="school" class="col-sm-3">zu Schule</label>
-				<div class="col-sm-9">
-					<select name="" class="form-control" id="school">
-						<option>Christiane Herzog Schule</option>
-						<option>Andreas Schneider Schule</option>
-					</select>
-				</div>
+				<label for="school">zu Schule</label>
+				<select name="school" class="form-control" id="school">
+				</select>
 			</div>
 			
-			<div class="form-group">
-    			<div class="col-sm-offset-3 col-sm-9">
-					<button type="submit" class="btn btn-primary">
-						<span class="glyphicon glyphicon-ok-sign"></span>
-						Vergleichen
-					</button>
-				</div>
-			</div>
+			<button type="submit" class="btn btn-primary">
+				<span class="glyphicon glyphicon-play"></span>
+				Vergleichen
+			</button>
 		</form>
-		
-		<p style="margin-top:2em;"><strong>Beispiele:</strong></p>
-		<ul class="list-unstyled">
-			<li><a href="#">Leingarten - Andreas-Schneider-Schule</a></li>
-			<li><a href="#">Schwaigern - Christiane Herzog Schule</a></li>
-		</ul> 
 	</div>
 
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script src="js/2fd2c82e.tc.js"></script>
+	<script src="js/2014bae4.tc.js"></script>
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
+			tc.form.init();
 		});
 	</script>
 </body>

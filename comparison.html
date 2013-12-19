@@ -11,7 +11,7 @@
 <meta name="description" content="Stadtbahn S4: Fahrplanwechsel Vergleich">
 
 <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/e335206a.tc.css">
+<link rel="stylesheet" href="css/9b3a77ef.tc.css">
 </head>
 <body data-ng-app>
 	<div class="container" data-ng-controller="tc.ComparisonCtrl">
@@ -21,22 +21,18 @@
 			</a>
 		</div>
 
-		<h1>Christiane-Herzog-Schule - Leingarten</h1>
+		<h1 class="ride-label">&nbsp;</h1>
 
-		<ul class="nav nav-tabs">
-			<li class="active"><a href="#">Hinfahrt</a></li>
-			<li><a href="#">Rückfahrt: 5. Stunde</a></li>
-			<li><a href="#">6. Stunde</a></li>
-			<li><a href="#">8. Stunde</a></li>
-			<li><a href="#">10. Stunde</a></li>
+		<ul class="nav nav-tabs nav-rides">
+			<li class="active"><a data-ride="begin">Hinfahrt</a></li>
+			<li><a data-ride="end5">Rückfahrt: 5. Stunde</a></li>
+			<li><a data-ride="end6">6. Stunde</a></li>
+			<li><a data-ride="end8">8. Stunde</a></li>
+			<li><a data-ride="end10">10. Stunde</a></li>
 		</ul>
 
-		<p>
-			<br />
-		</p>
-		<p>
-			Die 1. Stunde beginnt um <strong>08:00 Uhr</strong>
-		</p>
+		<p class="ride-info">&nbsp;</p>
+		
 		<table class="table table-striped">
 			<thead>
 				<tr>
@@ -48,32 +44,32 @@
 			<tbody>
 				<tr>
 					<th>Fahrtmöglichkeiten</th>
-					<td>4</td>
-					<td>3</td>
+					<td class="ride-number-of-lines-new">4</td>
+					<td class="ride-number-of-lines-old">3</td>
 				</tr>
 				<tr>
 					<th>Abfahrtzeiten</th>
-					<td>07:15, 07:25, 07:30, 07:45</td>
-					<td>07:15, 07:25, 07:30, 07:45</td>
+					<td class="ride-departures-new">07:15, 07:25, 07:30, 07:45</td>
+					<td class="ride-departures-old">07:15, 07:25, 07:30, 07:45</td>
 				</tr>
 				<tr>
-					<th>Späteste Hinfahrt</th>
-					<td>07:45</td>
-					<td>07:45</td>
+					<th class="ride-best-label">Späteste Hinfahrt</th>
+					<td class="ride-best-new">07:45</td>
+					<td class="ride-best-old">07:45</td>
 				</tr>
 				<tr>
 					<th>Details</th>
 					<td><a href="#" data-toggle="modal" data-target="#myModal">Fahrplan anzeigen</a></td>
-					<td><a href="#">Fahrplan anzeigen</a></td>
+					<td><a href="#" data-toggle="modal" data-target="#myModal">Fahrplan anzeigen</a></td>
 				</tr>
 			</tbody>
 		</table>
 
 		<p>
-			<small>Fußweg von Haltestelle zur Schule: <strong>5 Minuten</strong></small>
+			<small class="ride-footway"></small>
 		</p>
 		<p>
-			<small>Als Fahrtmöglichkeiten werden Fahrten innerhalb von 45 Minuten (plus Fußweg) vor Schulbeginn / nach Schulende angesehen</small>
+			<small>Es werden Fahrten innerhalb von 45 Minuten plus Fußweg vor Schulbeginn / nach Schulende berücksichtigt.</small>
 		</p>
 	</div>
 
@@ -130,6 +126,12 @@
 
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-	<script src="js/2fd2c82e.tc.js"></script>
+	<script src="js/2014bae4.tc.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			tc.comparison.init();
+		});
+	</script>
 </body>
 </html>
