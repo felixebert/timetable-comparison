@@ -44,23 +44,23 @@
 			<tbody>
 				<tr>
 					<th>Fahrtmöglichkeiten</th>
-					<td class="ride-number-of-lines-new">4</td>
-					<td class="ride-number-of-lines-old">3</td>
+					<td class="ride-number-of-lines-new"></td>
+					<td class="ride-number-of-lines-old"></td>
 				</tr>
 				<tr>
 					<th>Abfahrtzeiten</th>
-					<td class="ride-departures-new">07:15, 07:25, 07:30, 07:45</td>
-					<td class="ride-departures-old">07:15, 07:25, 07:30, 07:45</td>
+					<td class="ride-departures-new"></td>
+					<td class="ride-departures-old"></td>
 				</tr>
 				<tr>
 					<th class="ride-best-label">Späteste Hinfahrt</th>
-					<td class="ride-best-new">07:45</td>
-					<td class="ride-best-old">07:45</td>
+					<td class="ride-best-new"></td>
+					<td class="ride-best-old"></td>
 				</tr>
 				<tr>
 					<th>Details</th>
-					<td><a href="#" data-toggle="modal" data-target="#myModal">Fahrplan anzeigen</a></td>
-					<td><a href="#" data-toggle="modal" data-target="#myModal">Fahrplan anzeigen</a></td>
+					<td><a class="ride-lines-modal" data-plan="new">Fahrplan anzeigen</a></td>
+					<td><a class="ride-lines-modal" data-plan="old">Fahrplan anzeigen</a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -73,15 +73,15 @@
 		</p>
 	</div>
 
-	<div class="modal fade" id="myModal" tabindex="-1">
+	<div class="modal fade" id="lines-modal" tabindex="-1">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title">Fahrplan: Hinfahrt 1. Stunde</h4>
+					<h4 class="modal-title">Fahrplan</h4>
 				</div>
 				<div class="modal-body">
-					<p>von <em>Leingarten</em> nach <em>Berufsschulzentrum</em></p>
+					<p>von <em class="lines-modal-startingPoint"></em> nach <em class="lines-modal-target"></em></p>
 				
 					<table class="table table-striped">
 						<thead>
@@ -92,31 +92,7 @@
 								<th>Fahrtdauer</th>
 							</tr>
 						</thead>
-						<tbody>
-							<tr>
-								<td>S85445</td>
-								<td>07:15</td>
-								<td>07:23</td>
-								<td>8 Minuten</td>
-							</tr>
-							<tr>
-								<td>S85446</td>
-								<td>07:25</td>
-								<td>07:33</td>
-								<td>8 Minuten</td>
-							</tr>
-							<tr>
-								<td>S85447</td>
-								<td>07:35</td>
-								<td>07:43</td>
-								<td>8 Minuten</td>
-							</tr>
-							<tr>
-								<td>S85448</td>
-								<td>07:45</td>
-								<td>07:50</td>
-								<td>5 Minuten</td>
-							</tr>
+						<tbody class="line-list">
 						</tbody>
 					</table>
 				</div>
@@ -126,7 +102,7 @@
 
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-	<script src="js/2014bae4.tc.js"></script>
+	<script src="js/4ab96919.tc.js"></script>
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
