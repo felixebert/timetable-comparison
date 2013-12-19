@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Stadtbahn S4: Fahrplanwechsel Vergleich</title>
+<meta name="author" content="Heilbronner Stimme">
+<meta name="description" content="Stadtbahn S4: Fahrplanwechsel Vergleich">
+
+<!-- build:css css/tc.css -->
+<link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<link href="lib/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<!-- endbuild -->
+</head>
+<body data-ng-app>
+	<div class="container" data-ng-controller="tc.ComparisonCtrl">
+		<div class="pull-right">
+			<a href="index.html" class="btn btn-primary" style="margin-top:12px;">
+				<span class="glyphicon glyphicon-circle-arrow-up"></span>
+				zurück zur Auswahl
+			</a>
+		</div>
+	
+		<h1>Christiane-Herzog-Schule - Leingarten</h1>
+
+		<ul class="nav nav-tabs">
+		  <li class="active"><a href="#">Hinfahrt</a></li>
+		  <li><a href="#">Rückfahrt: 5. Stunde</a></li>
+		  <li><a href="#">6. Stunde</a></li>
+		  <li><a href="#">8. Stunde</a></li>
+		  <li><a href="#">10. Stunde</a></li>
+		</ul>
+
+		<p><br /></p>
+		<p>Die 1. Stunde beginnt um <strong>08:00 Uhr</strong></p>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th></th>
+					<th>Neuer Fahrplan</th>
+					<th>Alter Fahrplan</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Fahrtmöglichkeiten</th>
+					<td>4</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<th>Abfahrtzeiten</th>
+					<td>07:15, 07:25, 07:30, 07:45</td>
+					<td>07:15, 07:25, 07:30, 07:45</td>
+				</tr>
+				<tr>
+					<th>Späteste Hinfahrt</th>
+					<td>07:45</td>
+					<td>07:45</td>
+				</tr>
+				<tr>
+					<th>Details</th>
+					<td><a href="#">Fahrplan anzeigen</a></td>
+					<td><a href="#">Fahrplan anzeigen</a></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p><small>Fußweg von Haltestelle zur Schule: <strong>5 Minuten</strong></small></p>
+		<p><small>Als Fahrtmöglichkeiten werden Fahrten innerhalb von 45 Minuten (plus Fußweg) vor Schulbeginn / nach Schulende angesehen</small></p>
+	</div>
+
+	<!-- build:js js/tc.js -->
+	<script src="lib/angular/angular.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/data.js"></script>
+	<!-- endbuild -->
+</body>
+</html>

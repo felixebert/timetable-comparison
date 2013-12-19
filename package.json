@@ -1,7 +1,10 @@
 {
   "name": "timetable-comparison",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "csv": "~0.3.6"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-copy": "~0.4.1",
