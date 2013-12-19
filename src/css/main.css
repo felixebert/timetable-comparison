@@ -17,3 +17,6 @@
 .tc-head-2 th {
 	border-top: 0 !important;
 }
+.ride-1, .ride-3, .ride-5 {
+	background: #F9F9F9;
+}
