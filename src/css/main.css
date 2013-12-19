@@ -1,5 +1,5 @@
 .container {
-	width: 625px;
+	max-width: 645px;
 }
 #map {
 	width: 100%;
@@ -31,3 +31,6 @@ h1 {
 .comparison-form {
 	margin-top: 1.5em;	
 }
+.comparison-form button {
+	margin-top: 1em;
+} 

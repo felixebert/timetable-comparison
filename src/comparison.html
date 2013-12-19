@@ -10,33 +10,35 @@
 <meta name="author" content="Heilbronner Stimme">
 <meta name="description" content="Stadtbahn S4: Fahrplanwechsel Vergleich">
 
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
 <!-- build:css css/tc.css -->
-<link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-<link href="lib/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
 <link href="css/main.css" rel="stylesheet" />
 <!-- endbuild -->
 </head>
 <body data-ng-app>
 	<div class="container" data-ng-controller="tc.ComparisonCtrl">
 		<div class="pull-right">
-			<a href="index.html" class="btn btn-primary" style="margin-top:12px;">
-				<span class="glyphicon glyphicon-circle-arrow-up"></span>
-				zurück zur Auswahl
+			<a href="index.html" class="btn btn-primary" style="margin-top: 12px;"> <span class="glyphicon glyphicon-circle-arrow-up"></span> zurück
+				zur Auswahl
 			</a>
 		</div>
-	
+
 		<h1>Christiane-Herzog-Schule - Leingarten</h1>
 
 		<ul class="nav nav-tabs">
-		  <li class="active"><a href="#">Hinfahrt</a></li>
-		  <li><a href="#">Rückfahrt: 5. Stunde</a></li>
-		  <li><a href="#">6. Stunde</a></li>
-		  <li><a href="#">8. Stunde</a></li>
-		  <li><a href="#">10. Stunde</a></li>
+			<li class="active"><a href="#">Hinfahrt</a></li>
+			<li><a href="#">Rückfahrt: 5. Stunde</a></li>
+			<li><a href="#">6. Stunde</a></li>
+			<li><a href="#">8. Stunde</a></li>
+			<li><a href="#">10. Stunde</a></li>
 		</ul>
 
-		<p><br /></p>
-		<p>Die 1. Stunde beginnt um <strong>08:00 Uhr</strong></p>
+		<p>
+			<br />
+		</p>
+		<p>
+			Beginn der 1. Stunde: <strong>08:00 Uhr</strong><br />
+		</p>
 		<table class="table table-striped">
 			<thead>
 				<tr>
@@ -63,18 +65,74 @@
 				</tr>
 				<tr>
 					<th>Details</th>
-					<td><a href="#">Fahrplan anzeigen</a></td>
+					<td><a href="#" data-toggle="modal" data-target="#myModal">Fahrplan anzeigen</a></td>
 					<td><a href="#">Fahrplan anzeigen</a></td>
 				</tr>
 			</tbody>
 		</table>
 
-		<p><small>Fußweg von Haltestelle zur Schule: <strong>5 Minuten</strong></small></p>
-		<p><small>Als Fahrtmöglichkeiten werden Fahrten innerhalb von 45 Minuten (plus Fußweg) vor Schulbeginn / nach Schulende angesehen</small></p>
+		<p>
+			<small>Fußweg von Haltestelle Berufsschulzentrum zur Schule: <strong>5 Minuten</strong></small>
+		</p>
+		<p>
+			<small>Als Fahrtmöglichkeiten werden Fahrten innerhalb von 45 Minuten (plus Fußweg) vor Schulbeginn / nach Schulende angesehen</small>
+		</p>
 	</div>
 
+	<div class="modal fade" id="myModal" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Fahrplan: Hinfahrt 1. Stunde</h4>
+				</div>
+				<div class="modal-body">
+					<p>von <em>Leingarten</em> nach <em>Berufsschulzentrum</em></p>
+				
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>Zugnummer</th>
+								<th>Abfahrt</th>
+								<th>Ankunft</th>
+								<th>Fahrtdauer</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>S85445</td>
+								<td>07:15</td>
+								<td>07:23</td>
+								<td>8 Minuten</td>
+							</tr>
+							<tr>
+								<td>S85446</td>
+								<td>07:25</td>
+								<td>07:33</td>
+								<td>8 Minuten</td>
+							</tr>
+							<tr>
+								<td>S85447</td>
+								<td>07:35</td>
+								<td>07:43</td>
+								<td>8 Minuten</td>
+							</tr>
+							<tr>
+								<td>S85448</td>
+								<td>07:45</td>
+								<td>07:50</td>
+								<td>5 Minuten</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 	<!-- build:js js/tc.js -->
-	<script src="lib/angular/angular.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/data.js"></script>
 	<!-- endbuild -->
