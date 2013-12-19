@@ -1,0 +1,19 @@
+.container {
+	width: 645px !important;
+}
+.table-nested {
+	background: transparent !important;
+}
+.table-nested {
+	margin-bottom: 0 !important;
+}
+.table-tc tbody th {
+	width: 100px;
+}
+.tc-head-1 th {
+	border-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+.tc-head-2 th {
+	border-top: 0 !important;
+}
