@@ -1,4 +1,4 @@
-(function(tc) {
+(function(tc, $) {
 	'use strict';
 
 	var form = {
@@ -17,10 +17,10 @@
 			return tags;
 		},
 		init: function() {
-			$('#station').html(this.generateOptionTags(this.getSchoolNames()));
-			$('#school').html(this.generateOptionTags(tc.stations));
+			$('#school').html(this.generateOptionTags(this.getSchoolNames()));
+			$('#station').html(this.generateOptionTags(tc.stations));
 		}
 	};
 
 	tc.form = form;
-})(tc);
+})(tc, jQuery);

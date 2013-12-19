@@ -1,36 +1,23 @@
 .container {
 	max-width: 645px;
 }
-#map {
-	width: 100%;
-	height: 450px;
+a {
+	cursor: pointer;
 }
-.table-nested {
-	background: transparent !important;
-}
-.table-nested {
-	margin-bottom: 0 !important;
-}
-.table-tc tbody th {
-	width: 100px;
-}
-.tc-head-1 th {
-	border-bottom: 0 !important;
-	padding-bottom: 0 !important;
-}
-.tc-head-2 th {
-	border-top: 0 !important;
-}
-.ride-1, .ride-3, .ride-5 {
-	background: #F9F9F9;
-}
-h1 {
-	font-size: 16px;
-	margin-bottom: 2em;
-}
+
+/* form */
 .comparison-form {
 	margin-top: 1.5em;	
 }
 .comparison-form button {
 	margin-top: 1em;
-} 
+}
+
+/* comparison */
+h1 {
+	font-size: 16px;
+	margin-bottom: 2em;
+}
+.ride-info {
+	margin-top: 1em;	
+}
