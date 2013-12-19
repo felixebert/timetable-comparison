@@ -46,23 +46,23 @@
 			<tbody>
 				<tr>
 					<th>Fahrtmöglichkeiten</th>
-					<td>4</td>
-					<td>3</td>
+					<td class="ride-number-of-lines-new"></td>
+					<td class="ride-number-of-lines-old"></td>
 				</tr>
 				<tr>
 					<th>Abfahrtzeiten</th>
-					<td>07:15, 07:25, 07:30, 07:45</td>
-					<td>07:15, 07:25, 07:30, 07:45</td>
+					<td class="ride-departures-new"></td>
+					<td class="ride-departures-old"></td>
 				</tr>
 				<tr>
-					<th>Späteste Hinfahrt</th>
-					<td>07:45</td>
-					<td>07:45</td>
+					<th class="ride-best-label">Späteste Hinfahrt</th>
+					<td class="ride-best-new"></td>
+					<td class="ride-best-old"></td>
 				</tr>
 				<tr>
 					<th>Details</th>
-					<td><a href="#" data-toggle="modal" data-target="#myModal">Fahrplan anzeigen</a></td>
-					<td><a href="#">Fahrplan anzeigen</a></td>
+					<td><a class="ride-lines-modal" data-plan="new">Fahrplan anzeigen</a></td>
+					<td><a class="ride-lines-modal" data-plan="old">Fahrplan anzeigen</a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -71,19 +71,19 @@
 			<small class="ride-footway"></small>
 		</p>
 		<p>
-			<small>Es werden nur Fahrten innerhalb von 45 Minuten plus Fußweg vor Schulbeginn / nach Schulende angezeigt.</small>
+			<small>Es werden Fahrten innerhalb von 90 Minuten plus Fußweg vor Schulbeginn / nach Schulende berücksichtigt.</small>
 		</p>
 	</div>
 
-	<div class="modal fade" id="myModal" tabindex="-1">
+	<div class="modal fade" id="lines-modal" tabindex="-1">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title">Fahrplan: Hinfahrt 1. Stunde</h4>
+					<h4 class="modal-title">Fahrplan</h4>
 				</div>
 				<div class="modal-body">
-					<p>von <em>Leingarten</em> nach <em>Berufsschulzentrum</em></p>
+					<p>von <em class="lines-modal-startingPoint"></em> nach <em class="lines-modal-target"></em></p>
 				
 					<table class="table table-striped">
 						<thead>
@@ -94,31 +94,7 @@
 								<th>Fahrtdauer</th>
 							</tr>
 						</thead>
-						<tbody>
-							<tr>
-								<td>S85445</td>
-								<td>07:15</td>
-								<td>07:23</td>
-								<td>8 Minuten</td>
-							</tr>
-							<tr>
-								<td>S85446</td>
-								<td>07:25</td>
-								<td>07:33</td>
-								<td>8 Minuten</td>
-							</tr>
-							<tr>
-								<td>S85447</td>
-								<td>07:35</td>
-								<td>07:43</td>
-								<td>8 Minuten</td>
-							</tr>
-							<tr>
-								<td>S85448</td>
-								<td>07:45</td>
-								<td>07:50</td>
-								<td>5 Minuten</td>
-							</tr>
+						<tbody class="line-list">
 						</tbody>
 					</table>
 				</div>
@@ -132,6 +108,7 @@
 	<script src="lib/underscore.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/data/schools.js"></script>
+	<script src="js/data/stations.js"></script>
 	<script src="js/data/timetable-forward-new.js"></script>
 	<script src="js/data/timetable-forward-old.js"></script>
 	<script src="js/data/timetable-reverse-new.js"></script>

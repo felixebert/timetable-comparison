@@ -1,10 +1,9 @@
 Name,Haltestelle,Fussweg zur Haltestelle in min,1. Stunde,5. Stunde,6. Stunde,8. Stunde,10. Stunde,Geo-Daten
 Andreas-Schneider-Schule,Berufsschulzentrum,5,08:00:00,12:10:00,13:00:00,14:40:00,16:20:00,49.13833°N 9.17933°E
-Realschule Eppingen,Eppingen West,10,07:45:00,12:05:00,12:50:00,14:30:00,16:10:00,49.13062°N 8.90986°E
-,Eppingen Bahnhof,15,,,,,,
-Hartmanni-Gymnasium Eppingen,Eppingen Bahnhof,10,07:45:00,12:05:00,12:50:00,14:35:00,16:15:00,49.13132°N 8.91228°E
 Christiane-Herzog-Schule,Berufsschulzentrum,5,08:00:00,12:10:00,13:00:00,14:40:00,16:20:00,49.13833°N 9.17933°E
 Elly-Heuss-Knapp-Gymnasium Heilbronn,Berufsschulzentrum,12,08:00:00,12:15:00,13:05:00,15:30:00,17:15:00,49.14579°N 9.18040°E
-Robert-Mayer-Gymnasium,Friedensplatz,3,07:45:00,12:10:00,13:00:00,15:45:00,17:25:00,49.13961°N 9.22719°E
+Hartmanni-Gymnasium Eppingen,Eppingen,10,07:45:00,12:05:00,12:50:00,14:35:00,16:15:00,49.13132°N 8.91228°E
 Mönchsee-Gymnasium Heilbronn,Friedensplatz,3,07:45:00,12:10:00,13:00:00,-,17:00:00,49.14262°N 9.22835°E
+Realschule Eppingen,Eppingen West,10,07:45:00,12:05:00,12:50:00,14:30:00,16:10:00,49.13062°N 8.90986°E
+Robert-Mayer-Gymnasium,Friedensplatz,3,07:45:00,12:10:00,13:00:00,15:45:00,17:25:00,49.13961°N 9.22719°E
 Theodor-Heuss-Gymnasium Heilbronn,Friedensplatz,5,07:45:00,12:10:00,13:00:00,15:35:00,17:20:00,49.14266°N 9.22700°E
