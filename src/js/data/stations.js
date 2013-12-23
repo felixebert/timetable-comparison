@@ -20,6 +20,5 @@ tc.stations = [
 	"Gemmingen",
 	"Gemmingen West",
 	"Eppingen",
-	"Eppingen West",
-	"Sulzfeld"
+	"Eppingen West"
 ];

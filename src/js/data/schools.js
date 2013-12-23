@@ -46,8 +46,8 @@ tc.schools = [
 		"begin": 465,
 		"end5": 730,
 		"end6": 780,
-		"end8": null,
-		"end10": 1020
+		"end8": 965,
+		"end10": 1070
 	},
 	{
 		"name": "Realschule Eppingen",

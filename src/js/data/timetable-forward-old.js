@@ -45,7 +45,7 @@ tc.timetable['forward-old'] = {
 	],
 	"lines": [
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -92,7 +92,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -139,7 +139,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -186,7 +186,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -233,7 +233,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -280,7 +280,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -327,7 +327,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -374,7 +374,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -421,7 +421,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -468,7 +468,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -515,7 +515,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -562,7 +562,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -609,7 +609,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "EX",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -656,7 +656,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -703,7 +703,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -750,7 +750,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -797,7 +797,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -844,7 +844,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -891,7 +891,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -938,7 +938,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -985,7 +985,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1032,7 +1032,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1079,7 +1079,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -1126,7 +1126,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1173,7 +1173,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1220,7 +1220,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1267,7 +1267,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -1314,7 +1314,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1361,7 +1361,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1408,7 +1408,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1455,7 +1455,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -1502,7 +1502,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1549,7 +1549,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1596,7 +1596,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1643,7 +1643,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -1690,7 +1690,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1737,7 +1737,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1784,7 +1784,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1831,7 +1831,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -1878,7 +1878,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1925,7 +1925,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -1972,7 +1972,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2019,7 +2019,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -2066,7 +2066,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2113,7 +2113,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "EX",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -2160,7 +2160,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2207,7 +2207,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2254,7 +2254,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -2301,7 +2301,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2348,7 +2348,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2395,7 +2395,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2442,7 +2442,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -2489,7 +2489,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2536,7 +2536,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2583,7 +2583,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2630,7 +2630,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -2677,7 +2677,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2724,7 +2724,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2771,7 +2771,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2865,7 +2865,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2912,7 +2912,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -2959,7 +2959,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -3006,7 +3006,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "E",
+			"name": "Express",
 			"timetable": [
 				null,
 				null,
@@ -3053,7 +3053,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -3100,7 +3100,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -3147,7 +3147,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -3194,7 +3194,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -3241,7 +3241,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
@@ -3288,7 +3288,7 @@ tc.timetable['forward-old'] = {
 			]
 		},
 		{
-			"name": "S",
+			"name": "S-Bahn",
 			"timetable": [
 				null,
 				null,
