@@ -78,5 +78,15 @@ tc.schools = [
 		"end6": 780,
 		"end8": 935,
 		"end10": 1040
+	},
+	{
+		"name": "Leintal Realschule Schwaigern",
+		"station": "Schwaigern West",
+		"footway": 10,
+		"begin": 455,
+		"end5": 720,
+		"end6": 770,
+		"end8": 930,
+		"end10": 1030
 	}
 ];
